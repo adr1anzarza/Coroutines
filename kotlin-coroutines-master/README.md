@@ -121,8 +121,6 @@ fun main() = runBlocking<Unit> { // start main coroutine
 
 </div>
 
-> You can get full code [here](../kotlinx-coroutines-core/jvm/test/guide/example-basic-03.kt).
-
 <!--- TEST
 Hello,
 World!
@@ -176,8 +174,6 @@ fun main() = runBlocking {
 
 </div>
 
-> You can get full code [here](../kotlinx-coroutines-core/jvm/test/guide/example-basic-04.kt).
-
 <!--- TEST
 Hello,
 World!
@@ -220,8 +216,6 @@ fun main() = runBlocking { // this: CoroutineScope
 ```
 
 </div>
-
-> You can get full code [here](../kotlinx-coroutines-core/jvm/test/guide/example-basic-05.kt).
 
 <!--- TEST
 Hello,
@@ -267,8 +261,6 @@ fun main() = runBlocking { // this: CoroutineScope
 
 </div>
 
-> You can get full code [here](../kotlinx-coroutines-core/jvm/test/guide/example-basic-06.kt).
-
 <!--- TEST
 Task from coroutine scope
 Task from runBlocking
@@ -306,8 +298,6 @@ suspend fun doWorld() {
 
 </div>
 
-> You can get full code [here](../kotlinx-coroutines-core/jvm/test/guide/example-basic-07.kt).
-
 <!--- TEST
 Hello,
 World!
@@ -343,8 +333,6 @@ fun main() = runBlocking {
 
 </div>
 
-> You can get full code [here](../kotlinx-coroutines-core/jvm/test/guide/example-basic-08.kt).
-
 <!--- TEST lines.size == 1 && lines[0] == ".".repeat(100_000) -->
 
 It launches 100K coroutines and, after a second, each coroutine prints a dot. 
@@ -374,8 +362,6 @@ fun main() = runBlocking {
 ```
 
 </div>
-
-> You can get full code [here](../kotlinx-coroutines-core/jvm/test/guide/example-basic-09.kt).
 
 You can run and see that it prints three lines and terminates:
 
