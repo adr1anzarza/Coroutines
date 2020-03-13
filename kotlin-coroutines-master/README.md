@@ -41,8 +41,6 @@ fun main() {
 
 </div>
 
-> You can get full code [here](../kotlinx-coroutines-core/jvm/test/guide/example-basic-01.kt).
-
 You will see the following result:
 
 ```text
@@ -94,8 +92,6 @@ fun main() {
 ```
 
 </div>
-
-> You can get full code [here](../kotlinx-coroutines-core/jvm/test/guide/example-basic-02.kt).
 
 <!--- TEST
 Hello,
