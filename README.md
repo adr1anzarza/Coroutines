@@ -19,3 +19,10 @@ In order to use coroutines as well as follow the examples in this guide, you nee
 
 * [Coroutines design document (KEEP)](https://github.com/Kotlin/kotlin-coroutines/blob/master/kotlin-coroutines-informal.md)
 * [Full kotlinx.coroutines API reference](https://kotlin.github.io/kotlinx.coroutines)
+
+## Where to learn more
+
+* [Advanced Coroutines with Kotlin Flow and LiveData codelab](https://codelabs.developers.google.com/codelabs/advanced-kotlin-coroutines/index.html#0)
+* [Coroutines guide](https://github.com/Kotlin/kotlinx.coroutines/blob/master/docs/coroutines-guide.md)
+* [Cómo mejorar el rendimiento de la app con las corrutinas de Kotlin](https://developer.android.com/kotlin/coroutines)
+* [Adrian´s workshop](https://docs.google.com/presentation/d/1K_BUJ5Xjy7MmRbBSz7Esc-B9z5Ll08lfzrnGqS6rpWA/edit?usp=sharing)
