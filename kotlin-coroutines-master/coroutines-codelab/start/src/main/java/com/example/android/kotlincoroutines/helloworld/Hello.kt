@@ -1,4 +1,4 @@
-package com.example.android.kotlincoroutines.HelloWorld
+package com.example.android.kotlincoroutines.helloworld
 
 import kotlinx.coroutines.*
 
