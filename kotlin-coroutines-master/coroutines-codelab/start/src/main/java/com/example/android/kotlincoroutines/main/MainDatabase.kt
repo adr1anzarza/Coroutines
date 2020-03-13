@@ -21,6 +21,7 @@ data class Title constructor(val title: String, @PrimaryKey val id: Int = 0)
 /***
  * Very small database that will hold one title
  */
+// TODO 04 Make insert a suspend function
 @Dao
 interface TitleDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)

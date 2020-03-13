@@ -103,8 +103,9 @@ class MainViewModel(private val repository: TitleRepository) : ViewModel() {
     /**
      * Refresh the title, showing a loading spinner while it refreshes and errors via snackbar.
      */
+    // TODO 02.2: Convert refreshTitle to use coroutines
     fun refreshTitle() {
-        // TODO: Convert refreshTitle to use coroutines
+
         _spinner.value = true
         repository.refreshTitleWithCallbacks(object : TitleRefreshCallback {
             override fun onCompleted() {

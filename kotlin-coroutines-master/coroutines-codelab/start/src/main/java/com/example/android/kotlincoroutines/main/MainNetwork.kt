@@ -26,6 +26,8 @@ fun getNetworkService() = service
 /**
  * Main network interface which will fetch a new welcome title for us
  */
+
+// TODO 05 : Make fetchNextTitle a suspend fuction and silply return a string
 interface MainNetwork {
     @GET("next_title.json")
     fun fetchNextTitle(): Call<String>

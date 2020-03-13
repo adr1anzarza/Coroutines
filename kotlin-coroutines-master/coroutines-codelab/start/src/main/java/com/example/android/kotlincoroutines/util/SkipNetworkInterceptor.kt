@@ -24,7 +24,8 @@ private val FAKE_RESULTS = listOf(
         "Do you like coroutines?",
         "Androidx",
         "Android Studio",
-        "Android Jetpack"
+        "Android Jetpack",
+        "Room"
 )
 
 /**
